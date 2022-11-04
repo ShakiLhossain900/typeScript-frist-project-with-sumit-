@@ -8,3 +8,7 @@ function add(a, b) {
 }
 const result = add(2, 4);
 console.log(result);
+
+
+
+//good morning typescript 
