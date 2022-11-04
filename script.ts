@@ -99,7 +99,8 @@
 //     console.log('hello');  
 // };
 
-const myFunc =(a : string,b : number, c :any) =>{
+const myFunc =(a : string,b : number, c?:string) =>{   //c? optional ata atar value dile o hobe na dile o hobe
+    
     console.log(`Hello ${a} ${b}`);
 }
-myFunc('shakil', 900, true);
+myFunc('shakil', 900, );

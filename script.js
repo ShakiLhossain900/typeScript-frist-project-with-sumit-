@@ -61,4 +61,4 @@
 const myFunc = (a, b, c) => {
     console.log(`Hello ${a} ${b}`);
 };
-myFunc('shakil', 900, true);
+myFunc('shakil', 900);
