@@ -13,3 +13,51 @@
 // console.log(result);
 
 
+// let fruits = ['apple', 'orange', 'banana',23,false];
+
+// fruits.push(2);
+// fruits.push(true);
+
+
+// console.log(fruits);
+
+
+
+
+
+// Lesson 4 - Explicit & Union Types 
+
+// let a: string;
+// let b: number;
+// let f: string| number;
+// let c: string[]=[];
+
+// a="name is shakil";
+// b=23;
+// c.push('apple');
+
+// let d : number[] =[];
+
+// d.push(234)
+
+
+// let a: (string | number)[] =[];
+
+// let c: object;
+
+
+// let g: {
+//     name: string;
+//     age: number;
+//     adults: boolean;
+// }
+// g={
+//     name: 'shakil',
+//     age:34,
+//     adults: false
+// }
+
+
+
+
+// Lesson 5 - Dynamic Type 
