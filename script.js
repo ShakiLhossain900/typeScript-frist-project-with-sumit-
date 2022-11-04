@@ -35,3 +35,20 @@
 //     adults: false
 // }
 // Lesson 5 - Dynamic Type 
+// let a : any;
+//  a= 5;
+//  a = 'shakil'
+//  //any type or dynamic type
+//  let b : any[] = [];
+//  b.push('Bangladesh');
+//  b.push(34);
+//  console.log(b);
+//  //object 
+//   let o :  {
+//     name: any;
+//     age: any;
+//   }
+//   o = {
+//    name: 'Bangladesh',
+//    age:50
+//   }
