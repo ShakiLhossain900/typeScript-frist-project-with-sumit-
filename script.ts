@@ -86,3 +86,20 @@
 //   }
  
 
+
+
+
+// Lesson 6 - How to use Functions - TypeScript
+
+// const likha jabe na cuz amara variable ke reassign korteci tai let likhle reassin korte parbu amara
+
+
+// let myFunc : Function;
+//    myFunc = () =>{
+//     console.log('hello');  
+// };
+
+const myFunc =(a : string,b : number, c :any) =>{
+    console.log(`Hello ${a} ${b}`);
+}
+myFunc('shakil', 900, true);

@@ -52,3 +52,13 @@
 //    name: 'Bangladesh',
 //    age:50
 //   }
+// Lesson 6 - How to use Functions - TypeScript
+// const likha jabe na cuz amara variable ke reassign korteci tai let likhle reassin korte parbu amara
+// let myFunc : Function;
+//    myFunc = () =>{
+//     console.log('hello');  
+// };
+const myFunc = (a, b, c) => {
+    console.log(`Hello ${a} ${b}`);
+};
+myFunc('shakil', 900, true);
