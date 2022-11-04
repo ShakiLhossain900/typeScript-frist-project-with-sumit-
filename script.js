@@ -58,7 +58,10 @@
 //    myFunc = () =>{
 //     console.log('hello');  
 // };
-const myFunc = (a, b, c) => {
-    console.log(`Hello ${a} ${b}`);
+const myFunc = (a, b, c = 'true') => {
+    // console.log(c);
+    // console.log(`Hello ${a} ${b}`);
+    return a + b; // akhon return type stirng 
 };
-myFunc('shakil', 900);
+myFunc('shakil', 900, "shakil");
+// undefined and void same jinis na  void full empty and undefined has value empty na

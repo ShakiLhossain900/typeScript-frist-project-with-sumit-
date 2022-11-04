@@ -99,8 +99,12 @@
 //     console.log('hello');  
 // };
 
-const myFunc =(a : string,b : number, c?:string) =>{   //c? optional ata atar value dile o hobe na dile o hobe
+const myFunc =(a : string,b : number, c:string='true') =>{   //c? optional ata atar value dile o hobe na dile o hobe
     
-    console.log(`Hello ${a} ${b}`);
+    // console.log(c);
+    // console.log(`Hello ${a} ${b}`);
+return a+b;   // akhon return type stirng 
 }
-myFunc('shakil', 900, );
+myFunc('shakil', 900 ,"shakil");
+
+// undefined and void same jinis na  void full empty and undefined has value empty na
