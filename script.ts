@@ -117,6 +117,8 @@
 
 //akta sting ke likar jonnu barbar lika lagtece same one tar jonnu tai amara bar bar na like amara type aliases korte pari 
 
+//hahahahasahhahahha manus er boro boro nam ke dak nam deoa 
+
 type stringOrNum = string | number;
 type userType ={name:string; age:number};
 
