@@ -130,7 +130,9 @@ const userDetails = (
 ) => {console.log(`Uaer id is ${id}, name is ${user.name}, age is ${user.age}`);
 }
 
-const sayHello = (user: {name: string, age: number})=>{
+// const sayHello = (user: {name: string, age: number})=>{
+
+const sayHello = (user: userType)=>{
     console.log(`Hello ${user.age> 50 ? "Sir" : "Mr."} ${user.name}`);
     
 }
