@@ -119,29 +119,34 @@
 
 //hahahahasahhahahha manus er boro boro nam ke dak nam deoa 
 
-type stringOrNum = string | number;
-type userType ={name:string; age:number};
+// type stringOrNum = string | number;
+// type userType ={name:string; age:number};
 
-const userDetails = (
-    // id : number | string,
-    // user: {name: string, age: number}
+// const userDetails = (
+//     // id : number | string,
+//     // user: {name: string, age: number}
 
-    id : stringOrNum,
-    user: userType
+//     id : stringOrNum,
+//     user: userType
 
-) => {console.log(`Uaer id is ${id}, name is ${user.name}, age is ${user.age}`);
-}
+// ) => {console.log(`Uaer id is ${id}, name is ${user.name}, age is ${user.age}`);
+// }
 
-// const sayHello = (user: {name: string, age: number})=>{
+// // const sayHello = (user: {name: string, age: number})=>{
 
-const sayHello = (user: userType)=>{
-    console.log(`Hello ${user.age> 50 ? "Sir" : "Mr."} ${user.name}`);
+// const sayHello = (user: userType)=>{
+//     console.log(`Hello ${user.age> 50 ? "Sir" : "Mr."} ${user.name}`);
     
-}
+// }
 
 
 
  
+
+
+
+
+//Lesson 8 - Function Signatures - TypeScript 
 
 
 
