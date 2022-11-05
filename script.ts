@@ -108,3 +108,24 @@ return a+b;   // akhon return type stirng
 myFunc('shakil', 900 ,"shakil");
 
 // undefined and void same jinis na  void full empty and undefined has value empty na
+
+
+
+
+
+//Lesson 7 - Type Aliases 
+
+
+const userDetails = (
+    id : number | string,
+    user: {name: string, age: number}
+) => {console.log(`Uaer id is ${id}, name is ${user.name}, age is ${user.age}`);
+}
+
+
+
+ 
+
+
+
+
