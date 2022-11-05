@@ -99,15 +99,15 @@
 //     console.log('hello');  
 // };
 
-const myFunc =(a : string,b : number, c:string='true') =>{   //c? optional ata atar value dile o hobe na dile o hobe
+// const myFunc =(a : string,b : number, c:string='true') =>{   //c? optional ata atar value dile o hobe na dile o hobe
     
-    // console.log(c);  
-    // console.log(`Hello ${a} ${b}`);  //return korbe void
-return a+b;   // akhon return type stirng 
-}
-myFunc('shakil', 900 ,"shakil");
+//     // console.log(c);  
+//     // console.log(`Hello ${a} ${b}`);  //return korbe void
+// return a+b;   // akhon return type stirng 
+// }
+// myFunc('shakil', 900 ,"shakil");
 
-// undefined and void same jinis na  void full empty and undefined has value empty na
+// // undefined and void same jinis na  void full empty and undefined has value empty na
 
 
 
@@ -115,11 +115,24 @@ myFunc('shakil', 900 ,"shakil");
 
 //Lesson 7 - Type Aliases 
 
+//akta sting ke likar jonnu barbar lika lagtece same one tar jonnu tai amara bar bar na like amara type aliases korte pari 
+
+type stringOrNum = string | number;
+type userType ={name:string; age:number};
 
 const userDetails = (
-    id : number | string,
-    user: {name: string, age: number}
+    // id : number | string,
+    // user: {name: string, age: number}
+
+    id : stringOrNum,
+    user: userType
+
 ) => {console.log(`Uaer id is ${id}, name is ${user.name}, age is ${user.age}`);
+}
+
+const sayHello = (user: {name: string, age: number})=>{
+    console.log(`Hello ${user.age> 50 ? "Sir" : "Mr."} ${user.name}`);
+    
 }
 
 
