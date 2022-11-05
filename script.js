@@ -59,8 +59,8 @@
 //     console.log('hello');  
 // };
 const myFunc = (a, b, c = 'true') => {
-    // console.log(c);
-    // console.log(`Hello ${a} ${b}`);
+    // console.log(c);  
+    // console.log(`Hello ${a} ${b}`);  //return korbe void
     return a + b; // akhon return type stirng 
 };
 myFunc('shakil', 900, "shakil");

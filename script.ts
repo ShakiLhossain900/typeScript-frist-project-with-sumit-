@@ -101,8 +101,8 @@
 
 const myFunc =(a : string,b : number, c:string='true') =>{   //c? optional ata atar value dile o hobe na dile o hobe
     
-    // console.log(c);
-    // console.log(`Hello ${a} ${b}`);
+    // console.log(c);  
+    // console.log(`Hello ${a} ${b}`);  //return korbe void
 return a+b;   // akhon return type stirng 
 }
 myFunc('shakil', 900 ,"shakil");
