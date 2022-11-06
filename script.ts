@@ -162,11 +162,13 @@ class Player{
     country: string;
 
 
-
     constructor(n: string, a: number, c:string){
         this.name = n;
         this.age = a;
         this.country = c;
     }
-    pla
+    play(){ 
+        console.log(`his name is ${this.name}. the current age  ${this.age} and he from  ${this.country}`);
+    }
 }
+const mashrafi = new Player ('Mashrafi', 40,'Bangladeshi');
