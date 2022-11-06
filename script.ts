@@ -148,5 +148,5 @@
 
 //Lesson 8 - Function Signatures - TypeScript 
 
-
+//no need singular funciton in function 
 
