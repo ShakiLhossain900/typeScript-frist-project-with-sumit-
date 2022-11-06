@@ -185,9 +185,9 @@
 
 
 class Player{
-    name: string;
-    age: number;
-    country: string;
+    private name: string;
+    public age: number;
+   readonly country: string;
 
     constructor(n: string, a: number, c:string){
         this.name = n;
@@ -205,6 +205,10 @@ const shakib = new Player ('Shakib',34,'Bangladeshi');
 //amra ai object y bahir theke acess nite parteci
 shakib.name ='shakib vai '
 console.log(shakib.name);
+shakib.country ='england'
+
+shakib.age=31
+console.log(shakib.age);
 
 
 

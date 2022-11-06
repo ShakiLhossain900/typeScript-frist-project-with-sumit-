@@ -119,6 +119,9 @@ const shakib = new Player('Shakib', 34, 'Bangladeshi');
 //amra ai object y bahir theke acess nite parteci
 shakib.name = 'shakib vai ';
 console.log(shakib.name);
+shakib.country = 'england';
+shakib.age = 31;
+console.log(shakib.age);
 const player = [];
 player.push(mashrafi);
 player.push(shakib);
