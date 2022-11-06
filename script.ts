@@ -171,3 +171,9 @@ class Player{
     }
 }
 const mashrafi = new Player ('Mashrafi', 40,'Bangladeshi');
+const shakib = new Player ('Shakib',34,'Bangladeshi');
+
+const player : Player [] = [];
+
+player.push(mashrafi);
+player.push(shakib);
