@@ -1,4 +1,3 @@
-"use strict";
 // const coutery = "Bangladesh";
 // console.log(coutery);
 // let name = 'this is shakil';
@@ -129,3 +128,13 @@
 // player.push(mashrafi);
 // player.push(shakib);
 // Lesson 11 - Module System - TypeScript
+import { Player } from './classes/Player.js';
+const mashrafi = new Player('Mashrafi', 40, 'Bangladeshi');
+const shakib = new Player('Shakib', 34, 'Bangladeshi');
+//amra ai object y bahir theke acess nite parteci
+console.log(shakib.name);
+shakib.age = 31;
+console.log(shakib.age);
+const player = [];
+player.push(mashrafi);
+player.push(shakib);
