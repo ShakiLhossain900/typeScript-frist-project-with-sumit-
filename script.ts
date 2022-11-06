@@ -185,9 +185,9 @@
 
 
 class Player{
-    private name: string;
-    public age: number;
-   readonly country: string;
+    private name: string; //bahir theke access korte parbu na
+    public age: number;   //amara bahir theke change korte parbu
+   readonly country: string; // amara modify korte parbu na only dekle dekte parbu
 
     constructor(n: string, a: number, c:string){
         this.name = n;
