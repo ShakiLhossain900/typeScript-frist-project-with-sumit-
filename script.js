@@ -58,10 +58,65 @@
 //    myFunc = () =>{
 //     console.log('hello');  
 // };
-const myFunc = (a, b, c = 'true') => {
-    // console.log(c);  
-    // console.log(`Hello ${a} ${b}`);  //return korbe void
-    return a + b; // akhon return type stirng 
-};
-myFunc('shakil', 900, "shakil");
-// undefined and void same jinis na  void full empty and undefined has value empty na
+// const myFunc =(a : string,b : number, c:string='true') =>{   //c? optional ata atar value dile o hobe na dile o hobe
+//     // console.log(c);  
+//     // console.log(`Hello ${a} ${b}`);  //return korbe void
+// return a+b;   // akhon return type stirng 
+// }
+// myFunc('shakil', 900 ,"shakil");
+// // undefined and void same jinis na  void full empty and undefined has value empty na
+//Lesson 7 - Type Aliases 
+//akta sting ke likar jonnu barbar lika lagtece same one tar jonnu tai amara bar bar na like amara type aliases korte pari 
+//hahahahasahhahahha manus er boro boro nam ke dak nam deoa 
+// type stringOrNum = string | number;
+// type userType ={name:string; age:number};
+// const userDetails = (
+//     // id : number | string,
+//     // user: {name: string, age: number}
+//     id : stringOrNum,
+//     user: userType
+// ) => {console.log(`Uaer id is ${id}, name is ${user.name}, age is ${user.age}`);
+// }
+// // const sayHello = (user: {name: string, age: number})=>{
+// const sayHello = (user: userType)=>{
+//     console.log(`Hello ${user.age> 50 ? "Sir" : "Mr."} ${user.name}`);
+// }
+//Lesson 8 - Function Signatures - TypeScript 
+//no need singular funciton in function 
+//Lesson 9 - Classes - TypeScript
+// // class er khetreo amara type ta use korte parteci 
+// class Player{
+//     name: string;
+//     age: number;
+//     country: string;
+//     constructor(n: string, a: number, c:string){
+//         this.name = n;
+//         this.age = a;
+//         this.country = c;
+//     }
+//     play(){ 
+//         console.log(`his name is ${this.name}. the current age  ${this.age} and he from  ${this.country}`);
+//     }
+// }
+// const mashrafi = new Player ('Mashrafi', 40,'Bangladeshi');
+// const shakib = new Player ('Shakib',34,'Bangladeshi');
+// const player : Player [] = [];
+// player.push(mashrafi);
+// player.push(shakib);
+//Lesson 10 - Access Modifiers 
+class Player {
+    constructor(n, a, c) {
+        this.name = n;
+        this.age = a;
+        this.country = c;
+    }
+    play() {
+        console.log(`his name is ${this.name}. the current age  ${this.age} and he from  ${this.country}`);
+    }
+}
+const mashrafi = new Player('Mashrafi', 40, 'Bangladeshi');
+const shakib = new Player('Shakib', 34, 'Bangladeshi');
+console.log(shakib.name);
+const player = [];
+player.push(mashrafi);
+player.push(shakib);

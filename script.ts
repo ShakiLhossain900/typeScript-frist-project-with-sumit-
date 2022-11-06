@@ -155,7 +155,35 @@
 
 
 //Lesson 9 - Classes - TypeScript
-// class er khetreo amara type ta use korte parteci 
+// // class er khetreo amara type ta use korte parteci 
+// class Player{
+//     name: string;
+//     age: number;
+//     country: string;
+
+//     constructor(n: string, a: number, c:string){
+//         this.name = n;
+//         this.age = a;
+//         this.country = c;
+//     }
+//     play(){ 
+//         console.log(`his name is ${this.name}. the current age  ${this.age} and he from  ${this.country}`);
+//     }
+// }
+// const mashrafi = new Player ('Mashrafi', 40,'Bangladeshi');
+// const shakib = new Player ('Shakib',34,'Bangladeshi');
+
+// const player : Player [] = [];
+
+// player.push(mashrafi);
+// player.push(shakib);
+
+
+
+
+//Lesson 10 - Access Modifiers 
+
+
 class Player{
     name: string;
     age: number;
@@ -173,13 +201,10 @@ class Player{
 const mashrafi = new Player ('Mashrafi', 40,'Bangladeshi');
 const shakib = new Player ('Shakib',34,'Bangladeshi');
 
+console.log(shakib.name);
+
+
 const player : Player [] = [];
 
 player.push(mashrafi);
 player.push(shakib);
-
-
-
-
-//Lesson 10 - Access Modifiers 
-
