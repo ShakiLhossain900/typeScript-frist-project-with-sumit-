@@ -148,6 +148,5 @@
 
 //Lesson 8 - Function Signatures - TypeScript 
 
-// i will do this in the next time
 
 
