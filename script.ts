@@ -177,3 +177,9 @@ const player : Player [] = [];
 
 player.push(mashrafi);
 player.push(shakib);
+
+
+
+
+//Lesson 10 - Access Modifiers 
+
