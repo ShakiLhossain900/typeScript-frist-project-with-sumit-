@@ -201,7 +201,12 @@ class Player{
 const mashrafi = new Player ('Mashrafi', 40,'Bangladeshi');
 const shakib = new Player ('Shakib',34,'Bangladeshi');
 
+
+//amra ai object y bahir theke acess nite parteci
+shakib.name ='shakib vai '
 console.log(shakib.name);
+
+
 
 
 const player : Player [] = [];
