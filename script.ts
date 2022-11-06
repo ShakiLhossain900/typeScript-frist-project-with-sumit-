@@ -155,7 +155,7 @@
 
 
 //Lesson 9 - Classes - TypeScript
- 
+// class er khetreo amara type ta use korte parteci 
 class Player{
     name: string;
     age: number;
@@ -168,4 +168,5 @@ class Player{
         this.age = a;
         this.country = c;
     }
+    pla
 }
