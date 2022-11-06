@@ -104,24 +104,28 @@
 // player.push(mashrafi);
 // player.push(shakib);
 //Lesson 10 - Access Modifiers 
-class Player {
-    constructor(n, a, c) {
-        this.name = n;
-        this.age = a;
-        this.country = c;
-    }
-    play() {
-        console.log(`his name is ${this.name}. the current age  ${this.age} and he from  ${this.country}`);
-    }
-}
-const mashrafi = new Player('Mashrafi', 40, 'Bangladeshi');
-const shakib = new Player('Shakib', 34, 'Bangladeshi');
-//amra ai object y bahir theke acess nite parteci
-shakib.name = 'shakib vai ';
-console.log(shakib.name);
-shakib.country = 'england';
-shakib.age = 31;
-console.log(shakib.age);
-const player = [];
-player.push(mashrafi);
-player.push(shakib);
+// class Player{
+//     private name: string; //bahir theke access korte parbu na
+//     public age: number;   //amara bahir theke change korte parbu
+//    readonly country: string; // amara modify korte parbu na only dekle dekte parbu
+//     constructor(n: string, a: number, c:string){
+//         this.name = n;
+//         this.age = a;
+//         this.country = c;
+//     }
+//     play(){ 
+//         console.log(`his name is ${this.name}. the current age  ${this.age} and he from  ${this.country}`);
+//     }
+// }
+// const mashrafi = new Player ('Mashrafi', 40,'Bangladeshi');
+// const shakib = new Player ('Shakib',34,'Bangladeshi');
+// //amra ai object y bahir theke acess nite parteci
+// shakib.name ='shakib vai '
+// console.log(shakib.name);
+// shakib.country ='england';
+// shakib.age=31
+// console.log(shakib.age);
+// const player : Player [] = [];
+// player.push(mashrafi);
+// player.push(shakib);
+// Lesson 11 - Module System - TypeScript
