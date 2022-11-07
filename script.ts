@@ -243,5 +243,7 @@ const player : Player [] = [];
 player.push(mashrafi);
 player.push(shakib);
 player.push(shakil);
+player.push(shakil);
+
 
 
