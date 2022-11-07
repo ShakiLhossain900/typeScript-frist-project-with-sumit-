@@ -226,7 +226,7 @@ import {Player} from './classes/Player.js';
 
 const mashrafi = new Player ('Mashrafi', 40,'Bangladeshi');
 const shakib = new Player ('Shakib',34,'Bangladeshi');
-
+const shakil = 
 
 //amra ai object y bahir theke acess nite parteci
 console.log(shakib.name);
@@ -240,3 +240,4 @@ const player : Player [] = [];
 
 player.push(mashrafi);
 player.push(shakib);
+
