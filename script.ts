@@ -233,7 +233,8 @@ console.log(shakib.name);
 
 shakib.age=31
 console.log(shakib.age);
-log
+console.log(shakil);
+
 
 
 const player : Player [] = [];
@@ -241,4 +242,5 @@ const player : Player [] = [];
 
 player.push(mashrafi);
 player.push(shakib);
+player.push(shakil);
 
