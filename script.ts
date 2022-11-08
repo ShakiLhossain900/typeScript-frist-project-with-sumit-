@@ -245,5 +245,5 @@ player.push(shakib);
 player.push(shakil);
 player.push(shakil);
 
-//the problem is 2 ta file typescript kaj kortece na
+
 
