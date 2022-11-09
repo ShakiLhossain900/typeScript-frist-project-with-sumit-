@@ -131,10 +131,12 @@
 import { Player } from './classes/Player.js';
 const mashrafi = new Player('Mashrafi', 40, 'Bangladeshi');
 const shakib = new Player('Shakib', 34, 'Bangladeshi');
+const shakil = new Player('Shakil', 34, 'America');
 //amra ai object y bahir theke acess nite parteci
 console.log(shakib.name);
 shakib.age = 31;
 console.log(shakib.age);
+console.log(shakil);
 const player = [];
 player.push(mashrafi);
 player.push(shakib);
